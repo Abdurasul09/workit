@@ -20,7 +20,7 @@
 /* CUSTOM PROPS */
 :root {
 	/* colors */
-  --dark-purple: #24053E;
+	--dark-purple: #24053E;
 	--eucaplyptus: #44ffa1;
 	--davys-gray: #584d62;
 	--ghost-white: #fcf8ff;
@@ -54,4 +54,15 @@ body {
 	line-height: 32px;
 	background-color: var(--white);
 	color: var(--dark-purple);
+}
+
+/* CONTAINER */
+.container {
+	width: 100%;
+	max-width: 1146px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-left: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
